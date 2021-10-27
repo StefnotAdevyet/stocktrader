@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>StockTraderlite</title>
+  <script src="app.js"></script>
 </head>
 <body>
   <nav>
@@ -12,7 +13,7 @@
   </nav>
   <div class="searchBar">
 
-    <form action="" method="get" class="searchBar">
+    <form action="" method="get" class="searchBar" onsubmit="handleSubmit()">
       <input type="text" value="enter ticker" required>
       <input type="submit" value="search">
     </form>
